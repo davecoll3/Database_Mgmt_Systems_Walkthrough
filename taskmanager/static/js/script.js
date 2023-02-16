@@ -3,6 +3,10 @@ document.addEventListener('DOMContentLoaded', function() {
   let sidenav = document.querySelectorAll('.sidenav');
   M.Sidenav.init(sidenav);
 
+  // modal initialization
+  let modal = document.querySelectorAll('.modal');
+  M.Modal.init(modal);
+
   // datepicker initialization
   let datepicker = document.querySelectorAll('.datepicker');
   M.Datepicker.init(datepicker, {
@@ -16,6 +20,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
 });
 
-// modal initialization
-// let modal = document.querySelectorAll('.modal');
-// M.Modal.init(modal);
+// 
